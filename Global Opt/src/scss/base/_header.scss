@@ -1,0 +1,39 @@
+.header {
+    height: 123px;
+    width: 100%;
+    color: #fff;
+    a {
+        color: #fff;
+        &:hover {
+            color: $main;
+        }
+    }
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 100%;
+    }
+    &__menu {
+        font-size: 13px;
+        line-height: 17px;
+    }
+    &__link {
+        padding: 2px;
+        padding-right: 5px;
+        border-right: 1px dotted #fff;
+        &:last-child {
+            border: none;
+        }
+    }
+    &__contact-info {
+        font-size: 14px;
+        line-height: 24px;
+        font-weight: 300;
+        text-align: right;
+    }
+    &__number {
+        font-size: 17px;
+        line-height: 15px;
+    }
+}

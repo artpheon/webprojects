@@ -1,0 +1,58 @@
+.present {
+    background: url('../img/back1.png') center (center/cover) no-repeat;
+    min-height: 680px;
+    &__head {
+        font-size: 18px;
+        color: #ffffff;
+        font-weight: 300;
+        text-align: center;
+    }
+    &__cap {
+        font-size: 40px;
+        line-height: 40px;
+        color: $main;
+        font-weight: 700;
+        text-align: center;
+        text-transform: uppercase;
+    }
+    &__sub {
+        font-size: 22px;
+        line-height: 22px;
+        color: #ffffff;
+        font-weight: 300;
+        text-align: center;
+        text-transform: uppercase;
+    }
+    &__dec {
+        display: flex;
+        font-size: 80px;
+        line-height: 20px;
+        color: #ffffff;
+    }
+    &__line {
+        width: 47%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        background-color: rgb(192, 192, 192);
+        border-top: none;
+    }
+    &__pr-content {
+        font-size: 15px;
+        color: #fff;
+        text-align: center;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__pr-item {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+
+    }
+    &__pr-img {
+        max-height: 48px;
+    }
+    &__pr-descr {
+        margin-top: 10px;
+    }
+}

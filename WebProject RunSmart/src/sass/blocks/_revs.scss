@@ -1,0 +1,38 @@
+.revs-content {
+    margin: 0 auto;
+    margin-top: 65px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    &__pic {
+        display: block;
+        max-height: 169px;
+    }
+    &__item {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 120px;
+        &:last-child {
+            margin-bottom: 50px;
+        }
+    }
+    &__rev {
+        padding-left: 60px;
+        font-size: 16px;
+        line-height: 18px;
+    }
+    &__name {
+        display: block;
+        font-weight: 700;
+        font-size: 19px;
+    }
+    &__sub {
+        display: block;
+        line-height: 30px;
+        font-weight: 300;
+        color: #949292;
+        font-size: 15px;
+    }
+}

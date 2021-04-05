@@ -1,0 +1,19 @@
+.button {
+    width: 160px;
+    height: 45px;
+    font-size: 12px;
+    line-height: 22px;
+    text-transform: uppercase;
+    color: #ffffff;
+    text-align: center;
+    background-color: $main;
+    border: none;
+    outline: none;
+    border-radius: 25px;
+    &:hover {
+        background-color: #dc5238;
+    }
+    &:active, &:focus {
+        outline: none;
+    }
+}

@@ -1,0 +1,21 @@
+@import "bootstrap-reboot.min";
+@import "fonts";
+@import "variables/var";
+
+* {
+ font-family: 'Roboto', sans-serif;
+ font-weight: 400;
+}
+.container {
+    max-width: 950px;
+    margin: 0 auto;
+    .svg_main {
+        fill: #fff;
+    }
+}
+
+@import "base/titles";
+@import "base/button";
+@import "base/header";
+@import "base/present";
+
